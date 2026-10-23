@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | Discover SL</title>
+  <meta name="description" content="Explore beaches, culture, wildlife and history across Sierra Leone.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Discover SL home"><img class="logo-img" src="assets/logo.png" alt="Discover SL" width="700" height="505"></a>
+    <nav class="header-nav" aria-label="Primary">
+      <ul class="nav-list" id="primary-nav">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="travel-guide.html">Travel Guide</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="nav-tools">
+      <button class="icon-btn search-toggle" type="button" aria-label="Search destinations" aria-expanded="false" aria-controls="site-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg></button>
+      <button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="primary-nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+  <form class="container search-bar" id="site-search" role="search">
+    <label class="label-strong" for="header-q">Search destinations</label>
+    <input id="header-q" type="search" placeholder="Enter destination name...">
+  </form>
+</header>
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <img class="hero-media" src="assets/images/hero.jpg" alt="" width="800" height="500">
+    <div class="hero-content">
+      <h1 id="hero-title">Discover the Beauty of Sierra Leone</h1>
+      <p>Explore beaches, culture, wildlife and history</p>
+      <a class="btn" href="destinations.html">Explore Destinations</a>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="popular">
+    <div class="container">
+      <h2 class="section-title" id="popular">Popular Destinations</h2>
+      <ul class="card-grid cols-4">
+      <li class="card">
+        <img src="assets/images/tokeh-beach.jpg" alt="Tokeh Beach" loading="lazy" width="800" height="500">
+        <div class="card-body">
+          <h3>Tokeh Beach</h3>
+          <p class="card-meta">Beach</p>
+          <a class="card-link" href="destinations.html">View Details &rarr;</a>
+        </div>
+      </li>
+      <li class="card">
+        <img src="assets/images/tacugama.jpg" alt="Tacugama" loading="lazy" width="800" height="500">
+        <div class="card-body">
+          <h3>Tacugama</h3>
+          <p class="card-meta">Wild Life</p>
+          <a class="card-link" href="destinations.html">View Details &rarr;</a>
+        </div>
+      </li>
+      <li class="card">
+        <img src="assets/images/bonthe-island.jpg" alt="Bonthe Island" loading="lazy" width="800" height="500">
+        <div class="card-body">
+          <h3>Bonthe Island</h3>
+          <p class="card-meta">History</p>
+          <a class="card-link" href="destinations.html">View Details &rarr;</a>
+        </div>
+      </li>
+      <li class="card">
+        <img src="assets/images/loma-mountain.jpg" alt="Loma Mountain" loading="lazy" width="800" height="500">
+        <div class="card-body">
+          <h3>Loma Mountain</h3>
+          <p class="card-meta">Adventure</p>
+          <a class="card-link" href="destinations.html">View Details &rarr;</a>
+        </div>
+      </li>
+      </ul>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <a class="brand" href="index.html"><img class="logo-img" src="assets/logo.png" alt="Discover SL" width="700" height="505"></a>
+      <p class="copyright">&copy; 2026 Sierra Leone. All rights reserved.</p>
+    </div>
+    <nav aria-label="Footer">
+      <ul class="footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="travel-guide.html">Travel Guide</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

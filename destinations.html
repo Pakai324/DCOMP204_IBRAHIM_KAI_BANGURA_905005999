@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Destinations | Discover SL</title>
+  <meta name="description" content="Find your next adventure in Sierra Leone: beaches, wildlife, culture and history.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Discover SL home"><img class="logo-img" src="assets/logo.png" alt="Discover SL" width="700" height="505"></a>
+    <nav class="header-nav" aria-label="Primary">
+      <ul class="nav-list" id="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html" aria-current="page">Destinations</a></li>
+        <li><a href="travel-guide.html">Travel Guide</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="nav-tools">
+      <button class="icon-btn search-toggle" type="button" aria-label="Search destinations" aria-expanded="false" aria-controls="site-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg></button>
+      <button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="primary-nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+  <form class="container search-bar" id="site-search" role="search">
+    <label class="label-strong" for="header-q">Search destinations</label>
+    <input id="header-q" type="search" placeholder="Enter destination name...">
+  </form>
+</header>
+<main id="main">
+  <section class="page-hero">
+    <h1>Explore Destination</h1>
+    <p>Find your next adventure in Sierra Leone</p>
+  </section>
+
+  <div class="container section">
+    <h2 class="section-title">Choose a category</h2>
+    <div class="filters" role="group" aria-label="Filter by category">
+      <button class="chip" type="button" data-filter="all" aria-pressed="true">All</button>
+      <button class="chip" type="button" data-filter="beaches" aria-pressed="false">Beaches</button>
+      <button class="chip" type="button" data-filter="wildlife" aria-pressed="false">Wildlife</button>
+      <button class="chip" type="button" data-filter="culture" aria-pressed="false">Culture</button>
+      <button class="chip" type="button" data-filter="history" aria-pressed="false">History</button>
+    </div>
+
+    <form id="dest-form" class="search-block" role="search">
+      <label class="label-strong" for="dest-search">Search destination</label>
+      <div class="search-row">
+        <input id="dest-search" type="search" placeholder="Enter destination name...">
+        <button class="btn" type="submit">Search</button>
+      </div>
+    </form>
+
+    <h2 class="section-title">Featured Destinations</h2>
+    <ul class="card-grid cols-3" id="destination-grid">
+        <li class="card" data-category="beaches">
+          <img src="assets/images/tokeh-beach.jpg" alt="Tokeh Beach" loading="lazy" width="800" height="500">
+          <div class="card-body">
+            <h3>Tokeh Beach</h3>
+            <p class="card-meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>Freetown</p>
+            <p class="card-meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 12 12 3h9v9l-9 9Zm14-6a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/></svg>Beach</p>
+            <a class="btn" href="contact.html">View details</a>
+          </div>
+        </li>
+        <li class="card" data-category="wildlife">
+          <img src="assets/images/tacugama.jpg" alt="Tacugama" loading="lazy" width="800" height="500">
+          <div class="card-body">
+            <h3>Tacugama</h3>
+            <p class="card-meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>Freetown</p>
+            <p class="card-meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 12 12 3h9v9l-9 9Zm14-6a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/></svg>Wildlife</p>
+            <a class="btn" href="contact.html">View details</a>
+          </div>
+        </li>
+        <li class="card" data-category="history">
+          <img src="assets/images/bonthe-island.jpg" alt="Bonthe Island" loading="lazy" width="800" height="500">
+          <div class="card-body">
+            <h3>Bonthe Island</h3>
+            <p class="card-meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>Bonthe</p>
+            <p class="card-meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 12 12 3h9v9l-9 9Zm14-6a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/></svg>History</p>
+            <a class="btn" href="contact.html">View details</a>
+          </div>
+        </li>
+        <li class="card" data-category="culture">
+          <img src="assets/images/loma-mountain.jpg" alt="Loma Mountain" loading="lazy" width="800" height="500">
+          <div class="card-body">
+            <h3>Loma Mountain</h3>
+            <p class="card-meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>Kailahun</p>
+            <p class="card-meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 12 12 3h9v9l-9 9Zm14-6a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/></svg>Adventure</p>
+            <a class="btn" href="contact.html">View details</a>
+          </div>
+        </li>
+        <li class="card" data-category="wildlife">
+          <img src="assets/images/south-sierra.jpg" alt="South Sierra National Park" loading="lazy" width="800" height="500">
+          <div class="card-body">
+            <h3>South Sierra National Park</h3>
+            <p class="card-meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>Bo</p>
+            <p class="card-meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 12 12 3h9v9l-9 9Zm14-6a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/></svg>Nature</p>
+            <a class="btn" href="contact.html">View details</a>
+          </div>
+        </li>
+        <li class="card" data-category="beaches">
+          <img src="assets/images/jojoma-beach.jpg" alt="Jojoma Beach" loading="lazy" width="800" height="500">
+          <div class="card-body">
+            <h3>Jojoma Beach</h3>
+            <p class="card-meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>Freetown</p>
+            <p class="card-meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 12 12 3h9v9l-9 9Zm14-6a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/></svg>Beach</p>
+            <a class="btn" href="contact.html">View details</a>
+          </div>
+        </li>
+    </ul>
+    <p class="no-results" id="no-results" hidden>No destinations match your search.</p>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <a class="brand" href="index.html"><img class="logo-img" src="assets/logo.png" alt="Discover SL" width="700" height="505"></a>
+      <p class="copyright">&copy; 2026 Sierra Leone. All rights reserved.</p>
+    </div>
+    <nav aria-label="Footer">
+      <ul class="footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="travel-guide.html">Travel Guide</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
