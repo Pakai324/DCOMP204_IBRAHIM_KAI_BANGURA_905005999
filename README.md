@@ -70,5 +70,3 @@ For a more consistent local development setup, open the extracted project folder
 8. Summary
 Discover SL provides a simple way to browse information about Sierra Leone's destinations and travel experiences. Visitors can move between pages, search and filter destination cards, read about the project, and test the contact form. The current version is a static website intended as an informational front-end demonstration.﻿# DCOMP114_IBRAHIM_KAI_BANGURA_905005999
 # DCOMP114_IBRAHIM_KAI_BANGURA_905005999
-# DCOMP114_IBRAHIM_KAI_BANGURA_905005999_
-# DCOMP114_IBRAHIM_KAI_BANGURA_905005999
